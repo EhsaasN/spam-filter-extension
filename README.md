@@ -13,7 +13,7 @@ This Chrome extension connects to your Gmail account to detect and flag spam usi
 ## 🔒 Privacy
 - We do not collect or store personal data.
 - All processing is done via secured APIs.
-- [View our Privacy Policy](https://yourdomain.com/privacy-policy)  
+- [View our Privacy Policy](https://github.com/EhsaasN/spam-filter-extension/blob/main/privacy-policy)  
 
 ## 📞 Contact
 For support or questions: [ehsaasnahata@gmail.com](mailto:ehsaasnahata@gmail.com)
