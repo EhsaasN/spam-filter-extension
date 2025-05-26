@@ -1,0 +1,25 @@
+Effective Date: 25-05-2025
+
+This privacy policy describes how the Gmail Spam Filter Chrome extension the extension handles your information.
+
+1. Information We Access
+The extension uses Google OAuth 2.0 to access your Gmail inbox using the following scope:
+
+https://www.googleapis.com/auth/gmail.readonly
+
+This permission allows the extension to read email content to detect and classify spam messages.
+
+2. How We Use Information
+The extension uses email data only to analyze and highlight potential spam messages. No data is stored, saved, or shared externally.
+
+3. Data Retention
+The extension does not store or retain any personal or email data after processing. All analysis is done in real-time.
+
+4. Third-Party Sharing
+We do not share your data with third parties under any circumstances.
+
+5. Your Consent
+By using the extension, you consent to the access of your Gmail inbox for spam classification purposes.
+
+6. Contact Us
+For questions or concerns, contact: ehsaasnahata@gmail.com
