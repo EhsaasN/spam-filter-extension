@@ -8,7 +8,7 @@ This Chrome extension connects to your Gmail account to detect and flag spam usi
 - Spam emails are highlighted, and you can manually confirm or ignore them.
 
 ## 🔐 Permissions Requested
-- `https://www.googleapis.com/auth/gmail.readonly`: Required to read email content for spam classification. No data is stored or shared.
+- `https://www.googleapis.com/auth/gmail.readonly`,`https://www.googleapis.com/auth/gmail.modify`: Required to read email content for spam classification and put it into spam folder. No data is stored or shared.
 
 ## 🔒 Privacy
 - We do not collect or store personal data.
