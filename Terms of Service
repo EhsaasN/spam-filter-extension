@@ -1,0 +1,28 @@
+# Terms of Service – Gmail Spam Filter Extension
+
+**Effective Date:** May 26, 2025
+
+## 1. Acceptance of Terms
+By installing and using the Gmail Spam Filter Chrome extension (the "Extension"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Extension.
+
+## 2. Description of Service
+The Extension is designed to help users identify and flag potential spam messages in their Gmail inbox using AI-based classification. It requires permission to access your Gmail inbox using OAuth 2.0.
+
+## 3. User Responsibilities
+You agree to use the Extension only for lawful purposes and in accordance with Gmail's own Terms of Service. Misuse of the Extension, including unauthorized data scraping, is strictly prohibited.
+
+## 4. Data Access and Usage
+The Extension uses the following Google OAuth scope:
+
+- `https://www.googleapis.com/auth/gmail.readonly`
+
+This access is used only to read email content and classify spam. No data is stored, retained, or shared outside of your browser session.
+
+## 5. Limitation of Liability
+The Extension is provided "as is" without warranty of any kind. We are not responsible for any loss of data, missed emails, or other damages resulting from use or misuse of the Extension.
+
+## 6. Modifications
+We reserve the right to modify or update these Terms of Service at any time. Continued use of the Extension after changes have been made indicates your acceptance of the revised terms.
+
+## 7. Contact
+If you have any questions about these Terms of Service, please contact us at: [ehsaasnahata@gmail.com](mailto:ehsaasnahata@gmail.com)
