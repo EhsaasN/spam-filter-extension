@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Spam Classifier",
+  "version": "1.0",
+  "description": "Automatically detects and moves spam emails to the spam folder.",
+  "permissions": [
+    "identity",
+    "alarms",
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "host_permissions": [
+    "https://www.googleapis.com/*",
+    "https://mail.google.com/*",
+    "http://localhost:8000/*",
+    "https://spam-filter-extension-40h8lni1n-ehsaas-projects-5cc0e187.vercel.app"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "oauth2": {
+    "client_id": "152609296957-cumfecvfiajk60vdq3mquog71qqhek63.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/gmail.modify"
+    ]
+  },
+  "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDZ8VAr1VDQ+h6ZzgiUbJocFqo7vzSkH4SyufXfmFUmpn0KFuTl/03OnKaTZ6Tzf/ANyfkstYLEpWpsrIqK2XMs0pXnM0oJn3MRHg2GY+meD3zQzlPG8uCD8PPoKrxIetp2jHVenZ3U7L90fIX31FhCWDmc0uvsoOkVryP7/7McJA02bYPXTG5NGXTQpK3HafcjOdL62ie9n/zhUii8ZdfzxW769OsvhN+jEw9d8M7csSPmO+ZJhn53mFe770n2dJ0pA9uTaaL4Ay2kuw4oCGrsT6xwzpep2KjRrfMWZb+pECLiMPkXhKRR7T+r/TJULzkarJ/yh04KVRlk19v0IkEDAgMBAAECggEAU+ikhTvLsamavnyksQBfFRFk2Tv0eHvqCyWtlDiCEC9pVMkbt7Fjs3h8aaQtzdIkCisI1D3N6wgEwXJspKizvz4UmL8Wcj4Bf0Wiz2sINuKfm4TUnHRGHIZYYbqSYxVpptrNFXB5o9DCpYaLza7jjCeLhuVuD9yj4MVdhVgdDWfd1kMkWzUIIYMF+/4CqakUERpkY/aYfF1NOIgPY9muXgIzYbS7vLnxTJDJefpxUPPjSp3lTSTNJZOGyq1+SBHpfnupEmcGLw1J3ItgO6pREfg73Y/IbF3xs0UMKmBSS5p9M245Zw/KewwbTk5vCzT1ODcPHlnmlhnqqOlVXeKDgQKBgQD33GOjkvLxwqbB/bfOXFt2d23Zzod5DZTH1W8AadhFMlANg59hrpfZgxKtWHXS1Ok94AQgT1cBG0ce9xwIjErLQgzPCxOapIlUJvgTLYTnU4+a7xeJ4sqS/j7PSoINu730E7EwcCnHzAC/J3GzNvt9TDCdWCVjT/5AJvAH5hjwNQKBgQDhGWt+O/mtAxxsYZNwyo1O5MqecgPTBTXNvj0Cik3A8VdVvQ4i5N2fTUV5xnSJ9OW5j2Cups5PUJ9XTkc7rTSEoJ9P667neRolCfb1tmORRTdnzzE68gJBKBqR3Ut1vh1Vyazx1TO5L9H6KYoP+ui7L5j+U9aVqkNcYO3aJngDVwKBgDvVw2QAnI+KaxFXu6CgoR/XMviqp/+sLKeVOcfCxYfm3nZ0uOwu5s+GmeKpAUCVT301cCmQnbNRr3ilNOpHW+L3nfn5dZEWeWSMR8Txby0c+gTwBSGvUzHrGKSYGw9PrEqY2mSUHzHxaJi83/DgrBOSagYB+nygGgPIopd1j72lAoGBAJPSe7L0c+xYZKwQECE8AzxSJ3WR7kz/2Ot6CNrINHOGihH2C3iCz7+zoPJtj06hktMfAyDuzgFsMpfFAiaAgkKusLBtV/kOoEq+ln2Z/x0BVXdIq03IbA6Z5YjwyINUDDOwM3DE0CjG7J/Z85626WszwMcUC5FRtNbPmKNwK9QVAoGBAN4eRYRGzGH22OA2K5fCyWcMXGbA1u/0RsiLJLbnjqUfCGDUA62nF8kQFAOZRWvHg9hY2PtadWLaPm+YM8satuHJfeglQVA72cau8mWslK83L+7tnmW7ZlRh8Rcr/hCKlk0SuQ7j9UoEzAf+s5apgBPuxfZg7k4gO+Ceo56wNpAv"
+}
